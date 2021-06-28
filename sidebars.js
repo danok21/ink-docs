@@ -1,13 +1,13 @@
 module.exports = {
   reference: {
-    'Overview': [
+    '网站概览': [
       'intro/intro',
       'intro/why-rust',
       'intro/why-webassembly',
       'intro/how-it-works',
       'intro/ink-vs-solidity',
     ],
-    'Getting started': [
+    '基础知识': [
       'getting-started/setup',
       'getting-started/creating',
       'getting-started/compiling',
@@ -16,7 +16,7 @@ module.exports = {
       'getting-started/calling',
       'getting-started/troubleshooting',
     ],
-    'Basics': [
+    '系统运维': [
       'basics/contract-template',
       'basics/storing-values',
       'basics/reading-values',
@@ -27,7 +27,7 @@ module.exports = {
       'basics/testing',
       'basics/env-functions',
     ],
-    'Macros & Attributes': [
+    'Bitcoin': [
       'macros-attributes/overview',
       'macros-attributes/contract',
       'macros-attributes/anonymous',
@@ -42,7 +42,7 @@ module.exports = {
       'macros-attributes/topic',
       'macros-attributes/chain-extension',
     ],
-    'Storage & Data Structures': [
+    'Ethereum': [
       'datastructures/overview',
       'datastructures/hashmap',
       'datastructures/spread-packed',
@@ -50,13 +50,13 @@ module.exports = {
       'datastructures/dynamic-allocation',
       'datastructures/custom',
     ],
-    'Examples': [
+    'Polkadot': [
       'examples/overview',
     ],
-    'cargo-contract CLI': [
+    '编程语言': [
       'cargo-contract/overview',
     ],
-    'Canvas Test Network': [
+    'WebAssembly': [
       'canvas/overview',
     ],
     'FAQ': [
