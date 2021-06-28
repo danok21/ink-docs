@@ -43,14 +43,14 @@ module.exports = {
       // 'canvas/overview',
       'datastructures/opting-out',
     ],
-    '编程语言': [
+    '编程语言（PL）': [
       // 'canvas/overview',
       'datastructures/dynamic-allocation',
     ],
-    '虚拟机': [
+    '虚拟机（VM）': [
       'canvas/overview',
     ],
-    '开发运维': [
+    '开发运维（DevOps）': [
       // 'canvas/overview',
       'datastructures/opting-out',
     ],
