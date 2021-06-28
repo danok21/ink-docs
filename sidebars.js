@@ -1,6 +1,6 @@
 module.exports = {
   reference: {
-    '网站概览': [
+    '内容概览': [
       'intro/intro',
       // 'intro/why-rust',
       // 'intro/why-webassembly',
@@ -9,57 +9,56 @@ module.exports = {
     ],
     '基础知识': [
       'getting-started/setup',
-      'getting-started/creating',
-      'getting-started/compiling',
-      'getting-started/running',
-      'getting-started/deploying',
-      'getting-started/calling',
-      'getting-started/troubleshooting',
+      // 'getting-started/creating',
+      // 'getting-started/compiling',
+      // 'getting-started/running',
+      // 'getting-started/deploying',
+      // 'getting-started/calling',
+      // 'getting-started/troubleshooting',
     ],
-    '系统运维': [
-      'basics/contract-template',
-      'basics/storing-values',
-      'basics/reading-values',
-      'basics/mutating-values',
-      'basics/events',
-      'basics/trait-definitions',
-      'basics/cross-contract-calling',
-      'basics/testing',
-      'basics/env-functions',
-    ],
-    'Bitcoin': [
-      'macros-attributes/overview',
-      'macros-attributes/contract',
-      'macros-attributes/anonymous',
-      'macros-attributes/constructor',
-      'macros-attributes/event',
-      'macros-attributes/implementation',
-      'macros-attributes/message',
-      'macros-attributes/namespace',
-      'macros-attributes/payable',
-      'macros-attributes/selector',
-      'macros-attributes/storage',
-      'macros-attributes/topic',
-      'macros-attributes/chain-extension',
-    ],
-    'Ethereum': [
-      'datastructures/overview',
-      'datastructures/hashmap',
-      'datastructures/spread-packed',
-      'datastructures/opting-out',
-      'datastructures/dynamic-allocation',
-      'datastructures/custom',
-    ],
-    'Polkadot': [
+    'DeFi': [
       'examples/overview',
     ],
-    '编程语言': [
+    '公链架构': [
+      // 'basics/contract-template',
+      // 'basics/storing-values',
+      // 'basics/reading-values',
+      // 'basics/mutating-values',
+      // 'basics/events',
+      // 'basics/trait-definitions',
+      // 'basics/cross-contract-calling',
+      // 'basics/testing',
+      'basics/env-functions',
+    ],
+    '桥与跨链': [
       'cargo-contract/overview',
     ],
-    'WebAssembly': [
+    '存储类公链': [
+      'cargo-contract/overview',
+    ],
+    '零知识证明（ZKP）': [
+      'cargo-contract/overview',
+    ],
+    '联盟链': [
+      // 'canvas/overview',
+      'datastructures/opting-out',
+    ],
+    '编程语言': [
+      // 'canvas/overview',
+      'datastructures/dynamic-allocation',
+    ],
+    '虚拟机': [
       'canvas/overview',
     ],
-    'FAQ': [
+    '开发运维': [
+      // 'canvas/overview',
+      'datastructures/opting-out',
+    ],
+    '发明与设计': [
+      // 'canvas/overview',
+      'basics/storing-values',
+    ],
+    '其他有趣的领域': [
       'faq/faq',
     ],
   },
