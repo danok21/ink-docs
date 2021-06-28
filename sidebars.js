@@ -2,10 +2,10 @@ module.exports = {
   reference: {
     '网站概览': [
       'intro/intro',
-      'intro/why-rust',
-      'intro/why-webassembly',
-      'intro/how-it-works',
-      'intro/ink-vs-solidity',
+      // 'intro/why-rust',
+      // 'intro/why-webassembly',
+      // 'intro/how-it-works',
+      // 'intro/ink-vs-solidity',
     ],
     '基础知识': [
       'getting-started/setup',
