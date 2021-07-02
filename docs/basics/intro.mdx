@@ -11,10 +11,15 @@ slug: /ss58
 
 ### SS58-Check-Verify
 
-以下是官方文档给出的描述，不过这里有些错误，比如0x1dec传入后，给出的结果为 "True" ，这是不对的。
+以下是官方文档给出的描述，不过有些错误，比如0x1dec传入后，给出的结果为 "True" ，这是不对的。
 
 通过 subkey inspect 0x1dec 命令，可得出 "False" 。
 
+subkey inspect 0x67363fa1c611ad40750a429c2d658f0c974ca2f845aff840b4f4a6ef1243cc6d
+
+subkey inspect gD16jVQ6bp7GYcVzgJ5qaeRNbpC2cTBpott8c4mpPb64LPB
+
+可将以上地址分别代入进行测试：
 
 ```javascript
 // Import Polkadot.js API dependencies.
