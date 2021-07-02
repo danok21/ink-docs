@@ -8,7 +8,7 @@ module.exports = {
       // 'intro/ink-vs-solidity',
     ],
     '基础知识': [
-      'intro/intro',
+      'getting-started/intro',
       // 'getting-started/setup',
       // 'getting-started/creating',
       // 'getting-started/compiling',
@@ -18,7 +18,7 @@ module.exports = {
       // 'getting-started/troubleshooting',
     ],
     'DeFi': [
-      'intro/intro',
+      'examples/intro',
       // 'examples/overview',
     ],
     '公链架构': [
@@ -31,47 +31,47 @@ module.exports = {
       // 'basics/cross-contract-calling',
       // 'basics/testing',
       // 'basics/env-functions',
-      'intro/intro',
+      'basics/intro',
     ],
     '桥与跨链': [
-      'intro/intro',
+      'bridge/intro',
       // 'cargo-contract/overview',
     ],
     '存储类公链': [
-      'intro/intro',
+      'storage/intro',
       // 'cargo-contract/overview',
     ],
     '零知识证明（ZKP）': [
-      'intro/intro',
+      'zkp/intro',
       // 'cargo-contract/overview',
     ],
     '联盟链': [
-      'intro/intro',
+      'consortium/intro',
       // 'canvas/overview',
       // 'datastructures/opting-out',
     ],
     '编程语言（PL）': [
-      'intro/intro',
+      'pl/intro',
       // 'canvas/overview',
       // 'datastructures/dynamic-allocation',
     ],
     '虚拟机（VM）': [
-      'intro/intro',
+      'vm/intro',
       // 'canvas/overview',
     ],
     '开发运维（DevOps）': [
       // 'canvas/overview',
       // 'datastructures/opting-out',
-      'intro/intro',
+      'devops/intro',
     ],
     '发明与设计': [
       // 'canvas/overview',
       // 'basics/storing-values',
-      'intro/intro',
+      'design/intro',
     ],
     '其他有趣的领域': [
       // 'faq/faq',
-      'intro/intro',
+      'others/intro',
     ],
   },
 };
