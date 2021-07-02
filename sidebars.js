@@ -8,7 +8,7 @@ module.exports = {
       // 'intro/ink-vs-solidity',
     ],
     '基础知识': [
-      'getting-started/intro',
+      'basics/intro',
       // 'getting-started/setup',
       // 'getting-started/creating',
       // 'getting-started/compiling',
@@ -18,7 +18,7 @@ module.exports = {
       // 'getting-started/troubleshooting',
     ],
     'DeFi': [
-      'examples/intro',
+      'defi/intro',
       // 'examples/overview',
     ],
     '公链架构': [
