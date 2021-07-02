@@ -1,14 +1,18 @@
 ---
-title: SS58地址编码与Subkey工具
+title: SS58 & Subkey
 slug: /basics
 ---
 
-Hi，这是我平时写笔记的地方，会持续更新，需注意某些尚未整理好的内容。
+ref:
+[Polkadot.js API](https://polkadot.js.org/docs/api/)
+[Subkey](https://substrate.dev/docs/en/knowledgebase/integrate/subkey)
+[substrate-developer-hub.github.io](https://github.com/substrate-developer-hub/substrate-developer-hub.github.io/edit/source/docs/knowledgebase/advanced/ss58-address-format.md)
+[SS58地址格式](https://substrate.dev/docs/zh-CN/knowledgebase/advanced/ss58-address-format)
 
-### Polkadot.js
+### SS58-Check-Verify
 
-For verifying an address in your JavaScript projects, you can utilize the functions built
-into the [Polkadot.js API](https://polkadot.js.org/docs/api/).
+以下是官方文档给出的描述，不过这里有些错误，比如0x1dec传入后，给出的结果为 "True" ，这是不对的。
+通过 subkey inspect 0x1dec 命令，可得出 "False" 。
 
 ```javascript
 // Import Polkadot.js API dependencies.
