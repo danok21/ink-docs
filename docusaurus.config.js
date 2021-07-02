@@ -27,7 +27,7 @@ module.exports = {
       logo: {
         alt: 'ink!',
         src: 'img/cell.jpg',
-        srcDark: '/img/logo-white.svg',
+        srcDark: '/img/cell.jpg',
       },
       items: [
         {
