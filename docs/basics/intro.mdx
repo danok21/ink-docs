@@ -1,6 +1,35 @@
 ---
-title: BASICS
+title: SS58地址编码与Subkey工具
 slug: /basics
 ---
 
 Hi，这是我平时写笔记的地方，会持续更新，需注意某些尚未整理好的内容。
+
+### Polkadot.js
+
+For verifying an address in your JavaScript projects, you can utilize the functions built
+into the [Polkadot.js API](https://polkadot.js.org/docs/api/).
+
+```javascript
+// Import Polkadot.js API dependencies.
+const { decodeAddress, encodeAddress } = require("@polkadot/keyring");
+const { hexToU8a, isHex } = require("@polkadot/util");
+
+// Specify an address to test.
+const address = "<addressToTest>";
+
+// Check address.
+const isValidSubstrateAddress = () => {
+  try {
+    encodeAddress(isHex(address) ? hexToU8a(address) : decodeAddress(address));
+
+    return true;
+  } catch (error) {
+    return false;
+  }
+};
+
+// Query result.
+const isValid = isValidSubstrateAddress();
+console.log(isValid);
+```
