@@ -8,7 +8,8 @@ module.exports = {
       // 'intro/ink-vs-solidity',
     ],
     '基础知识': [
-      'getting-started/setup',
+      'intro/intro',
+      // 'getting-started/setup',
       // 'getting-started/creating',
       // 'getting-started/compiling',
       // 'getting-started/running',
@@ -17,7 +18,8 @@ module.exports = {
       // 'getting-started/troubleshooting',
     ],
     'DeFi': [
-      'examples/overview',
+      'intro/intro',
+      // 'examples/overview',
     ],
     '公链架构': [
       // 'basics/contract-template',
@@ -28,38 +30,48 @@ module.exports = {
       // 'basics/trait-definitions',
       // 'basics/cross-contract-calling',
       // 'basics/testing',
-      'basics/env-functions',
+      // 'basics/env-functions',
+      'intro/intro',
     ],
     '桥与跨链': [
-      'cargo-contract/overview',
+      'intro/intro',
+      // 'cargo-contract/overview',
     ],
     '存储类公链': [
-      'cargo-contract/overview',
+      'intro/intro',
+      // 'cargo-contract/overview',
     ],
     '零知识证明（ZKP）': [
-      'cargo-contract/overview',
+      'intro/intro',
+      // 'cargo-contract/overview',
     ],
     '联盟链': [
+      'intro/intro',
       // 'canvas/overview',
-      'datastructures/opting-out',
+      // 'datastructures/opting-out',
     ],
     '编程语言（PL）': [
+      'intro/intro',
       // 'canvas/overview',
-      'datastructures/dynamic-allocation',
+      // 'datastructures/dynamic-allocation',
     ],
     '虚拟机（VM）': [
-      'canvas/overview',
+      'intro/intro',
+      // 'canvas/overview',
     ],
     '开发运维（DevOps）': [
       // 'canvas/overview',
-      'datastructures/opting-out',
+      // 'datastructures/opting-out',
+      'intro/intro',
     ],
     '发明与设计': [
       // 'canvas/overview',
-      'basics/storing-values',
+      // 'basics/storing-values',
+      'intro/intro',
     ],
     '其他有趣的领域': [
-      'faq/faq',
+      // 'faq/faq',
+      'intro/intro',
     ],
   },
 };
