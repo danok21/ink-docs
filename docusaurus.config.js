@@ -1,7 +1,7 @@
 const BASE_URL = process.env.NODE_ENV === 'development' ? '/' : '/ink-docs/';
 
 module.exports = {
-  title: 'My Title',
+  title: 'LongLongHash',
   tagline: 'My Tagline',
   url: 'https://github.com/longlonghash/ink',
   baseUrl: BASE_URL,
