@@ -20,6 +20,7 @@ module.exports = {
     ],
     'DeFi': [
       'defi/intro',
+      'defi/uniswap',
       // 'examples/overview',
     ],
     '公链架构': [
