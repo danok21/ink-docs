@@ -9,6 +9,7 @@ module.exports = {
     ],
     '基础知识': [
       'basics/intro',
+      'basics/account',
       // 'getting-started/setup',
       // 'getting-started/creating',
       // 'getting-started/compiling',
